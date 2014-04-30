@@ -1,0 +1,6 @@
+C:\Users\Nick\Desktop\Stoichiometry\Stoichiometry\obj\Debug\Stoichiometry.csprojResolveAssemblyReference.cache
+C:\Users\Nick\Desktop\Stoichiometry\Stoichiometry\bin\Debug\Stoichiometry.dll
+C:\Users\Nick\Desktop\Stoichiometry\Stoichiometry\bin\Debug\Stoichiometry.pdb
+C:\Users\Nick\Desktop\Stoichiometry\Stoichiometry\obj\Debug\Stoichiometry.dll
+C:\Users\Nick\Desktop\Stoichiometry\Stoichiometry\obj\Debug\Stoichiometry.pdb
+C:\Users\Nick\Desktop\Stoichiometry\Stoichiometry\bin\Debug\Stoichiometry.tlb
