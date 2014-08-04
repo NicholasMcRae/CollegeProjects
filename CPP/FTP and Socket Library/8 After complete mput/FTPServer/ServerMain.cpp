@@ -24,6 +24,13 @@ March 22-23rd/2014 - Built socket library and got it functional with the server
 March 29-30th/2014 - Implemented socket library logic on server
 *********************************************************/
 
+/************************
+
+  More detailed comments on code functionality exist on client, which has a similar structure to the server
+
+  *************************/
+
+
 /*
 Purpose: Trim the files found in the directory to send across the network so the file can be recreated on the client
 Input: Directory string
@@ -42,17 +49,17 @@ Purpose: Take socket library object, directory path, and send all files within t
 Input: Directory path and socket object
 Output: Files sent across the network
 */
-void send_files( const path & dir_path, Socket& socket )            
-{
+void send_files(const path & dir_path, Socket& socket)            
+{ 
   std::string fileName;
   char* command = "";
 
-  if ( !exists( dir_path ) ) return;
+  if (!exists( dir_path)) return;
 
   directory_iterator end_itr; 
-  for ( directory_iterator itr( dir_path ); itr != end_itr; ++itr )
+  for (directory_iterator itr( dir_path ); itr != end_itr; ++itr)
   { 
-	  if ( is_directory(itr->status()) )
+	  if (is_directory(itr->status()))
       {   
 		  send_files( itr->path(), socket );
       }
@@ -77,8 +84,6 @@ void send_files( const path & dir_path, Socket& socket )
 			std::cout << "Error code is " << err << std::endl;
 			std::cout << "Problem opening stream" << std::endl;
 		  }
-
-		  //inside most recent
 
 		  fseek(fp, 0, SEEK_END);
 		  long FileSize = ftell(fp);
@@ -120,20 +125,19 @@ int main()
 
 	int i = 0;
 
+	//implemented this bool logic while testing application, fleshed out FTP server would need more work
 	while (i < 1)
 	{	
 		++i;
-		//Receive command through command socket from client
 		command = (char*)malloc(sizeof(char)*32);
-		int bytesRecv = socketObject.receiveData('c', command, 32);	
-		std::cout << "Command is " << command << std::endl;
+		int bytesRecv = socketObject.receiveData('c', command, 32);
 
 		if(_stricmp(command,"mput") == 0)
 		{	
 			free(command);
 
-			while( true ) {
-				
+			while( true ) 
+			{	
 				 SizeCheck = 0;
 				 FileSize = 0;
 				 
@@ -200,4 +204,3 @@ int main()
 
 	return 0;
 }
-
