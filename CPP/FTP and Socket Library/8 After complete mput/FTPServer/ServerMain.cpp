@@ -10,16 +10,18 @@
 using namespace boost::filesystem;
 
 /********************************************************
-Purpose: FTP Server - app has the ability to either receive all the files in a directory from the client application, or send all the files in a directory to the client application.
+Purpose: FTP Server - app has the ability to either receive all the files in a directory from the client application,
+		 or send all the files in a directory to the client application.
          The command is sent from the client.
 Authors: Nick McRae / Milan Sobat
 Revision History:
-March 8-9th/2014 - Researched how an FTP application worked and how I might go about building one, built a basic prototype that was able to send a single file from the client to server
-March 15-16th/2014 - Realized we needed to implement directory functionality, re-installed boost, implemented send-files function that recursed through and sent all files in directory.
+March 8-9th/2014 - Researched how an FTP application worked and how I might go about building one, built a basic prototype that
+				   was able to send a single file from the client to server
+March 15-16th/2014 - Realized we needed to implement directory functionality, re-installed boost, implemented send-files function 
+					 that recursed through and sent all files in directory.
                      Also built trimString function.
 March 22-23rd/2014 - Built socket library and got it functional with the server
 March 29-30th/2014 - Implemented socket library logic on server
-April 5-6th/2014 - 
 *********************************************************/
 
 /*
