@@ -21,6 +21,7 @@ March 15-16th/2014 - Realized we needed to implement directory functionality, re
 March 22-23rd/2014 - Built socket library and got it functional with the server
 March 29-30th/2014 - Implemented socket library logic on server
 April 5-6th/2014 -   Touched up code
+adding some more text
 *********************************************************/
 
 string trimString (string input)
