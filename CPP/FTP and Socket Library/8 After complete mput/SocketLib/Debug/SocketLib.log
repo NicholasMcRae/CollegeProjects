@@ -1,0 +1,13 @@
+﻿Build started 30/04/2014 8:46:44 AM.
+     1>Project "C:\Users\Nick\Desktop\FTP and Socket Library\8 After complete mput\SocketLib\SocketLib.vcxproj" on node 4 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt SocketLib.cpp
+         SocketLib.cpp
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\Lib.exe /OUT:"C:\Users\Nick\Desktop\FTP and Socket Library\8 After complete mput\Lib\x86\SocketLib-mt-s-gd.lib" /NOLOGO Debug\SocketLib.obj
+         SocketLib.vcxproj -> C:\Users\Nick\Desktop\FTP and Socket Library\8 After complete mput\Lib\x86\SocketLib-mt-s-gd.lib
+     1>Done Building Project "C:\Users\Nick\Desktop\FTP and Socket Library\8 After complete mput\SocketLib\SocketLib.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.19
