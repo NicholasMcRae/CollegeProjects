@@ -1,9 +1,0 @@
-﻿Build started 05/04/2014 11:23:58 AM.
-     1>Project "C:\Users\Nick\Desktop\Sockets Project\FTP App\6 After more server adj\FTPApplication\FTPApplication.vcxproj" on node 2 (Build target(s)).
-     1>Link:
-         FTPApplication.vcxproj -> C:\Users\Nick\Desktop\Sockets Project\FTP App\6 After more server adj\Debug DLL\FTPClient.exe
-     1>Done Building Project "C:\Users\Nick\Desktop\Sockets Project\FTP App\6 After more server adj\FTPApplication\FTPApplication.vcxproj" (Build target(s)).
-
-Build succeeded.
-
-Time Elapsed 00:00:00.08
