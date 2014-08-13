@@ -1,0 +1,49 @@
+c:\users\nick\documents\visual studio 2012\Projects\WpfApplication1\WpfApplication1\bin\Debug\WpfApplication1.exe.config
+c:\users\nick\documents\visual studio 2012\Projects\WpfApplication1\WpfApplication1\bin\Debug\WpfApplication1.exe
+c:\users\nick\documents\visual studio 2012\Projects\WpfApplication1\WpfApplication1\bin\Debug\WpfApplication1.pdb
+c:\users\nick\documents\visual studio 2012\Projects\WpfApplication1\WpfApplication1\obj\Debug\StoichiometryClient.csprojResolveAssemblyReference.cache
+c:\users\nick\documents\visual studio 2012\Projects\WpfApplication1\WpfApplication1\obj\Debug\MainWindow.baml
+c:\users\nick\documents\visual studio 2012\Projects\WpfApplication1\WpfApplication1\obj\Debug\MainWindow.g.cs
+c:\users\nick\documents\visual studio 2012\Projects\WpfApplication1\WpfApplication1\obj\Debug\App.g.cs
+c:\users\nick\documents\visual studio 2012\Projects\WpfApplication1\WpfApplication1\obj\Debug\WpfApplication1_MarkupCompile.cache
+c:\users\nick\documents\visual studio 2012\Projects\WpfApplication1\WpfApplication1\obj\Debug\WpfApplication1.g.resources
+c:\users\nick\documents\visual studio 2012\Projects\WpfApplication1\WpfApplication1\obj\Debug\WpfApplication1.Properties.Resources.resources
+c:\users\nick\documents\visual studio 2012\Projects\WpfApplication1\WpfApplication1\obj\Debug\StoichiometryClient.csproj.GenerateResource.Cache
+c:\users\nick\documents\visual studio 2012\Projects\WpfApplication1\WpfApplication1\obj\Debug\WpfApplication1.exe
+c:\users\nick\documents\visual studio 2012\Projects\WpfApplication1\WpfApplication1\obj\Debug\WpfApplication1.pdb
+C:\Users\Nick\Desktop\Stoichiometry\WpfApplication1\bin\Debug\WpfApplication1.exe.config
+C:\Users\Nick\Desktop\Stoichiometry\WpfApplication1\obj\Debug\WpfApplication1.exe
+C:\Users\Nick\Desktop\Stoichiometry\WpfApplication1\obj\Debug\WpfApplication1.pdb
+C:\Users\Nick\Desktop\Stoichiometry\WpfApplication1\obj\Debug\StoichiometryClient.csprojResolveAssemblyReference.cache
+C:\Users\Nick\Desktop\Stoichiometry\WpfApplication1\obj\Debug\MainWindow.baml
+C:\Users\Nick\Desktop\Stoichiometry\WpfApplication1\obj\Debug\MainWindow.g.cs
+C:\Users\Nick\Desktop\Stoichiometry\WpfApplication1\obj\Debug\App.g.cs
+C:\Users\Nick\Desktop\Stoichiometry\WpfApplication1\obj\Debug\WpfApplication1_MarkupCompile.cache
+C:\Users\Nick\Desktop\Stoichiometry\WpfApplication1\obj\Debug\WpfApplication1.g.resources
+C:\Users\Nick\Desktop\Stoichiometry\WpfApplication1\obj\Debug\WpfApplication1.Properties.Resources.resources
+C:\Users\Nick\Desktop\Stoichiometry\WpfApplication1\obj\Debug\StoichiometryClient.csproj.GenerateResource.Cache
+C:\Users\Nick\Desktop\Stoichiometry\WpfApplication1\bin\Debug\WpfApplication1.exe
+C:\Users\Nick\Desktop\Stoichiometry\WpfApplication1\bin\Debug\WpfApplication1.pdb
+C:\Users\Nick\Desktop\Stoichiometry Files\Stoichiometry\WpfApplication1\bin\Debug\WpfApplication1.exe.config
+C:\Users\Nick\Desktop\Stoichiometry Files\Stoichiometry\WpfApplication1\obj\Debug\WpfApplication1.exe
+C:\Users\Nick\Desktop\Stoichiometry Files\Stoichiometry\WpfApplication1\obj\Debug\WpfApplication1.pdb
+C:\Users\Nick\Desktop\Stoichiometry Files\Stoichiometry\WpfApplication1\bin\Debug\WpfApplication1.exe
+C:\Users\Nick\Desktop\Stoichiometry Files\Stoichiometry\WpfApplication1\bin\Debug\WpfApplication1.pdb
+C:\Users\Nick\Desktop\Stoichiometry Files\Stoichiometry\WpfApplication1\bin\Debug\MolecularLibrary.dll
+C:\Users\Nick\Desktop\Stoichiometry Files\Stoichiometry\WpfApplication1\bin\Debug\MolecularLibrary.pdb
+C:\Users\Nick\Desktop\Stoichiometry Files\Stoichiometry\WpfApplication1\obj\Debug\StoichiometryClient.csprojResolveAssemblyReference.cache
+C:\Users\Nick\Desktop\Stoichiometry Files\Stoichiometry\WpfApplication1\obj\Debug\MainWindow.baml
+C:\Users\Nick\Desktop\Stoichiometry Files\Stoichiometry\WpfApplication1\obj\Debug\MainWindow.g.cs
+C:\Users\Nick\Desktop\Stoichiometry Files\Stoichiometry\WpfApplication1\obj\Debug\App.g.cs
+C:\Users\Nick\Desktop\Stoichiometry Files\Stoichiometry\WpfApplication1\obj\Debug\WpfApplication1_MarkupCompile.cache
+C:\Users\Nick\Desktop\Stoichiometry Files\Stoichiometry\WpfApplication1\obj\Debug\WpfApplication1.g.resources
+C:\Users\Nick\Desktop\Stoichiometry Files\Stoichiometry\WpfApplication1\obj\Debug\WpfApplication1.Properties.Resources.resources
+C:\Users\Nick\Desktop\Stoichiometry Files\Stoichiometry\WpfApplication1\obj\Debug\StoichiometryClient.csproj.GenerateResource.Cache
+C:\Users\Nick\Desktop\Stoichiometry\WpfApplication1\bin\Debug\Stoichiometry.dll
+C:\Users\Nick\Desktop\Stoichiometry\WpfApplication1\bin\Debug\Stoichiometry.pdb
+C:\Users\Nick\Desktop\Semester 5\Components\Projects\Stoichiometry After Excel\Stoichiometry\WpfApplication1\bin\Debug\WpfApplication1.exe.config
+C:\Users\Nick\Desktop\Semester 5\Components\Projects\Stoichiometry After Excel\Stoichiometry\WpfApplication1\obj\Debug\WpfApplication1.exe
+C:\Users\Nick\Desktop\Semester 5\Components\Projects\Stoichiometry After Excel\Stoichiometry\WpfApplication1\obj\Debug\WpfApplication1.pdb
+C:\Users\Nick\Desktop\Molecular Weight Calculator\Stoichiometry\WpfApplication1\bin\Debug\WpfApplication1.exe.config
+C:\Users\Nick\Desktop\Molecular Weight Calculator\Stoichiometry\WpfApplication1\obj\Debug\WpfApplication1.exe
+C:\Users\Nick\Desktop\Molecular Weight Calculator\Stoichiometry\WpfApplication1\obj\Debug\WpfApplication1.pdb
