@@ -1,0 +1,19 @@
+Read Me for Blasteroids:
+
+Functionality that the game implements:
+
+Initial bombs fall one at a time from an array of 50, once 50 bombs fall the game is won
+The bombs don't change colour when they're hit
+The laser works and is fully functional
+The splitters do work, and they occur 10% of the time
+The nuclear bomb works after ten bombs are destroyed, and the background does change colour, user is notified when they have a bomb
+When either the initial bombs or splitters hit the ground the game is stopped and a message is sent to the user
+There is a score for the user displayed on screen
+Files have doc headers and comments
+Did not manage to implement buffer graphics, wasn't really sure how to do so
+Overall the game works and can be played
+
+Playability
+
+The game is fully functional but it seems like the "hit" calculator is a bit laggy and sometimes it takes too many clicks for the bomb to be destroyed, other times it's right away.
+So it's a complete game, just too laggy. 
