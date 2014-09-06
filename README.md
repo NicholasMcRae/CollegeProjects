@@ -14,3 +14,6 @@ C# projects:
 Java projects:
 - simple tiered app that was set up with MySQL
 - applet game
+
+Javascript
+- a mapping application that uses ASP.NET, Javascript, AJAX, and Bing Maps. Might have used a facetious concept :)
