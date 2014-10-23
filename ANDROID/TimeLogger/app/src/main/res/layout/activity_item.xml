@@ -1,0 +1,86 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.nick.timelogger.Item"
+    android:background="#ffcccda4"
+    android:id="@+id/itemLayout">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/elapsed"
+        android:id="@+id/elapsed"
+        android:layout_below="@+id/activityName" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/activityName"
+        android:id="@+id/activityName"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/elapsed" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start"
+        android:id="@+id/startButton"
+        android:layout_below="@+id/elapsed"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="73dp"
+        android:onClick="startActivity"
+        android:singleLine="true"
+        android:minWidth="400dp"
+        android:background="#ffc2ff85" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Stop"
+        android:id="@+id/stopButton"
+        android:layout_below="@+id/startButton"
+        android:layout_alignStart="@+id/startButton"
+        android:singleLine="true"
+        android:onClick="stopActivity"
+        android:minWidth="400dp"
+        android:background="#ffff925f" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pause"
+        android:id="@+id/pauseButton"
+        android:layout_below="@+id/stopButton"
+        android:layout_centerHorizontal="true"
+        android:onClick="pauseActivity"
+        android:singleLine="true"
+        android:minWidth="400dp"
+        android:background="#ffffeb8b" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Delete"
+        android:id="@+id/deleteButton"
+        android:layout_below="@+id/pauseButton"
+        android:layout_centerHorizontal="true"
+        android:onClick="deleteActivity"
+        android:minWidth="400dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Large Text"
+        android:id="@+id/status"
+        android:layout_above="@+id/elapsed"
+        android:layout_alignEnd="@+id/startButton" />
+
+</RelativeLayout>

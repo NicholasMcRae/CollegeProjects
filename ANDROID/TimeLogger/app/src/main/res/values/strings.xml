@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TimeLogger</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="create">Create</string>
+    <string name="activities">Activities</string>
+    <string name="stats">Stats</string>
+    <string name="about">About</string>
+    <string name="title_activity_create">Create</string>
+    <string name="name">Name</string>
+    <string name="type">Type</string>
+    <string name="work">Work</string>
+    <string name="personal">Personal</string>
+    <string name="other">Other</string>
+    <string name="save">Save</string>
+    <string name="sns">Save and Start</string>
+    <string name="title_activity_item">Item</string>
+    <string name="elapsed">Time Elapsed</string>
+    <string name="activityName">Activity Name Here</string>
+    <string name="start">Start</string>
+    <string name="pause">Pause</string>
+    <string name="stop">Stop</string>
+    <string name="title_activity_item_table">itemTable</string>
+    <string name="title_activity_stats">stats</string>
+    <string name="title_activity_about">about</string>
+    <string name="title_activity_about2">about2</string>
+
+</resources>

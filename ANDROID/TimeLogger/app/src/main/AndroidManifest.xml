@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.nick.timelogger" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MyActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Create"
+            android:label="@string/title_activity_create" >
+        </activity>
+        <activity
+            android:name=".Item"
+            android:label="@string/title_activity_item" >
+        </activity>
+        <activity
+            android:name=".itemTable"
+            android:label="@string/title_activity_item_table" >
+        </activity>
+        <activity
+            android:name=".stats"
+            android:label="@string/title_activity_stats" >
+        </activity>
+        <activity
+            android:name=".about"
+            android:label="@string/title_activity_about" >
+        </activity>
+        <activity
+            android:name=".about2"
+            android:label="@string/title_activity_about2" >
+        </activity>
+    </application>
+
+</manifest>
