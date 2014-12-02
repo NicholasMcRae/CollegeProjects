@@ -15,6 +15,9 @@ Threaded RGrep
 - Turns out doing the project over a year later was quite a bit easier and more efficient
 - Completed in term 4
 
+Parallel Processing App
+- In sixth term I built an application that leveraged the MPI standard to produce multi-processor functionality for parsing large data sets
+
 C# projects
 ===========
 Friend Tracker
@@ -50,3 +53,7 @@ Time Logger
 - Ended up producing an app that can record the total time a user spends on different activities
 - This app is 'project submission' ready, not 'sell' ready. To make it sellable it would need a few more months of work 
 - Completed in term 6
+
+TD Deals
+- app developed for Fanshawe term 6 "TD Challenge"
+- leverages Google Maps and Place APIs to produce customer-centric deals that are pinned to a map
