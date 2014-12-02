@@ -15,6 +15,9 @@ Threaded RGrep
 - Turns out doing the project over a year later was quite a bit easier and more efficient
 - Completed in term 4
 
+Parallel Processing App
+- In sixth term I built an application that leveraged the MPI standard to produce multi-processor functionality for parsing large data sets
+
 C# projects
 ===========
 Friend Tracker
