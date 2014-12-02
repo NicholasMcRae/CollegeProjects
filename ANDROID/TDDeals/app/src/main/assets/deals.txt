@@ -1,0 +1,26 @@
+{
+    "Canadian Tire" : { 
+		"Description" : "10% off purchases of $50.00 or more", 
+		"Expires" : "Exp: Dec. 31st 2014"
+	},
+	"Budweiser Gardens" : {
+		"Description" : "5% off event ticket purchases.",
+		"Expires" : "Exp: Dec. 31st 2014"
+	},
+	"Museum London" : {
+		"Description" : "1 free tour with 1 other participant.",
+		"Expires" : "Exp: Dec. 31st 2014"
+	},
+	"Hilton London" : {
+		"Description" : "1 free night when 2 or more are purchased.",
+		"Expires" : "Exp: Dec. 31st 2014"
+	},
+	"Delta London Armouries Hotel" : {
+		"Description" : "25% off regular room rate.",
+		"Expires" : "Exp: Dec. 31st 2014"
+	},
+	"StationPark All Suite Hotel" : {
+		"Description" : "Free breakfast buffet each morning of stay.",
+		"Expires" : "Exp: Dec. 31st 2014"
+	}
+}

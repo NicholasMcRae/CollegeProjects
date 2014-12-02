@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/TDDeals.iml" filepath="$PROJECT_DIR$/TDDeals.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/factual-java-driver-1.8.2-android/factual-java-driver-1.8.2-android.iml" filepath="$PROJECT_DIR$/factual-java-driver-1.8.2-android/factual-java-driver-1.8.2-android.iml" />
+      <module fileurl="file://$PROJECT_DIR$/factual-java-driver-1.8.7/factual-java-driver-1.8.7.iml" filepath="$PROJECT_DIR$/factual-java-driver-1.8.7/factual-java-driver-1.8.7.iml" />
+      <module fileurl="file://$PROJECT_DIR$/factual-java-driver-1.8.7-javadoc/factual-java-driver-1.8.7-javadoc.iml" filepath="$PROJECT_DIR$/factual-java-driver-1.8.7-javadoc/factual-java-driver-1.8.7-javadoc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/factual-java-driver-1.8.7-sources/factual-java-driver-1.8.7-sources.iml" filepath="$PROJECT_DIR$/factual-java-driver-1.8.7-sources/factual-java-driver-1.8.7-sources.iml" />
+    </modules>
+  </component>
+</project>
+

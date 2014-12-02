@@ -1,0 +1,77 @@
+{
+	"Customer 01": {
+		"Account Number": "0009123",
+		"Transactions" : {
+			"1": {
+				"Merchant": "Canadian Tire",
+				"Amount": "630.00"
+			},
+			"2": {
+				"Merchant": "Budweiser Gardens",
+				"Amount": "135.33"
+			},
+			"3": {
+				"Merchant": "McDonalds",
+				"Amount": "23.33"
+			},
+			"4": {
+				"Merchant": "Tim Hortons",
+				"Amount": "120.00"
+			},
+			"5": {
+				"Merchant": "Hilton Hotel",
+				"Amount": "1333.67"
+			}
+		}
+	},
+	"Customer 02": {
+		"Account Number": "0002929",
+		"Transactions" : {
+			"1": {
+				"Merchant": "Dell",
+				"Amount": "500.00"
+			},
+			"2": {
+				"Merchant": "Museum London",
+				"Amount": "45.00"
+			},
+			"3": {
+				"Merchant": "McDonalds",
+				"Amount": "123.33"
+			},
+			"4": {
+				"Merchant": "Delta London Armouries Hotel",
+				"Amount": "453.92"
+			},
+			"5": {
+				"Merchant": "Shell",
+				"Amount": "2312.67"
+			}
+		}
+	},
+	"Customer 03": {
+		"Account Number": "0007263",
+		"Transactions" : {
+			"1": {
+				"Merchant": "Apple",
+				"Amount": "1223.75"
+			},
+			"2": {
+				"Merchant": "Leons",
+				"Amount": "265.44"
+			},
+			"3": {
+				"Merchant": "McDonalds",
+				"Amount": "123.33"
+			},
+			"4": {
+				"Merchant": "StationPark All Suite Hotel",
+				"Amount": "755.32"
+			},
+			"5": {
+				"Merchant": "Petro Canada",
+				"Amount": "5233.09"
+			}
+		}
+	}
+}
