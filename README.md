@@ -50,3 +50,7 @@ Time Logger
 - Ended up producing an app that can record the total time a user spends on different activities
 - This app is 'project submission' ready, not 'sell' ready. To make it sellable it would need a few more months of work 
 - Completed in term 6
+
+TD Deals
+- app developed for Fanshawe term 6 "TD Challenge"
+- leverages Google Maps and Place APIs to produce customer-centric deals that are pinned to a map
