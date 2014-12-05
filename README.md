@@ -57,3 +57,4 @@ Time Logger
 TD Deals
 - app developed for Fanshawe term 6 "TD Challenge"
 - leverages Google Maps and Place APIs to produce customer-centric deals that are pinned to a map
+- we turned down the terms of the contest 
