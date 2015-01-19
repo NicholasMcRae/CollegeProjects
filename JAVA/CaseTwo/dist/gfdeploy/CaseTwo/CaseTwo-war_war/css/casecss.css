@@ -1,0 +1,21 @@
+/* 
+    Created on : Oct 23, 2013, 5:46:26 PM
+    Author     : Evan
+    Miscellaneous styles supporting case 1
+*/
+
+.custom-error {
+    font-size: x-small; 
+    font-weight: bold; 
+    color: red;
+}
+
+.trGrey{
+    background-color: #C8C8C8;
+}
+
+.trWhite{
+    background-color: #E0E0E0;
+}
+
+.changed div {color:blue; background: lightyellow;}

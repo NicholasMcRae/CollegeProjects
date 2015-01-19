@@ -1,0 +1,56 @@
+<div class="col-xs4"></div>
+    <h3>Generator</h3>
+    <form name="generatorForm" novalidate>
+        <div class="panel panel-primary">
+            <div class="panel-heading xsmall">
+                Product Order Generation
+            </div>
+            <div class="panel-body xsmall">                                    
+                <div>Product Information</div>
+                <div>
+                    <div class="col-xs-5 col-lg-6 text-right">Vendor:</div>
+                        <div class="col-xs-6 col-lg-6 text-left"><select name="vendorno" size="1" required ng-model="vendor.vendorno" ng-change="retrieveProducts(this.value)" ng-options="v.vendorno as v.vendorno for v in vendors" ></select></div>                    
+                    <div ng-show="showGenerator">
+                        <div class="col-xs-5 col-lg-6 text-right">Product:</div>
+                            <div class="col-xs-6 col-lg-6 text-left"><select id="prodID" name="name" size="1" required ng-model="product.name" ng-options="p.name as p.name for p in products" ></select></div>                    
+                        <div>
+                        <div class="col-xs-5 col-lg-6 text-right">Qty:</div>
+                        <div class="col-xs-7 col-lg-6 text-left">  
+                            <select class="input-small" ng-model="quantity" ng-change="updateArray()" id="qty">
+                                <option value="EOQ">EOQ</option>
+                                <option value="0">0</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                            </select>
+                        </div>
+                        <button ng-click="addItem()" class="btn-primary">Add Item</button>
+                    </div>
+                    <div class="panel-footer text-primary xsmall">{{status}}</div>
+                    <div class="text-center col-lg-6 col-sm-6 col-xs-6" id="main-content" >
+                        <table style="width: 100%">
+                            <tbody ng:repeat="product in addedProducts" ng-class="{trWhite: $even, trGrey: $odd, itemSelected: $index === selectedRow }"
+                                ng-click="selectRow($index, product)">
+                                <tr id="ven{{product.code}}">
+                                    <td align="left" style="padding-right: 15px;">{{product.code}}</td>
+                                    <td align="left">{{product.name}}</td>
+                                    <td align="left">{{product.quantity}}</td>
+                                    <td align="left">{{product.cost | currency:"$"}}</td>
+                                </tr>
+                            </tbody>
+                            <tr id="venEnd"><td colspan="4"></td></tr>
+                        </table>                        
+                        <table style="width: 100%">
+                            <tr><td align="right">Subtotal</td><td align="right">{{finalSubtotal | currency:"$"}}</td></tr>
+                            <tr><td align="right">Tax</td><td align="right">{{finalTax | currency:"$"}}</td></tr>
+                            <tr><td align="right">Total</td><td align="right">{{finalTotal | currency:"$"}}</td></tr>                             
+                        </table>
+                    </div>
+                </div>                
+            </div>  
+        </div>   
+        <button class="btn-primary" ng-show="showAddPO" ng-click="createPurchaseOrder()">Add</button>
+        <button class="btn-primary" ng-hide="showAddPO" ng-click="displayPDF()">View Product Order</button>
+    </form>
+

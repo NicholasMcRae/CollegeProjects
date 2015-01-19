@@ -1,0 +1,18 @@
+<div class="text-center col-lg-6 col-sm-6 col-xs-6" id="main-content" >
+    <table style="width: 100%">
+        <tr class="trPaleBlue" ng-click="selectRow(-1, null)">
+            <td colspan="4">..Click to add, else click on desired product</td>            
+        </tr>
+        <tbody ng:repeat="product in products" ng-class="{trWhite: $even, trGrey: $odd, itemSelected: $index === selectedRow }"
+            ng-click="selectRow($index, product)">
+            <tr id="ven{{product.code}}">
+                <td align="left" style="padding-right: 15px;">{{product.code}}</td>
+                <td align="left">{{product.name}}</td>
+                <td align="left">{{product.vendorno}}</td>
+                <td align="left">{{product.msrp}}</td>
+            </tr>
+        </tbody>
+        <tr id="venEnd"><td colspan="4"></td></tr>
+    </table>
+    <div class="panel-footer text-primary xsmall">{{status}}</div>
+</div>

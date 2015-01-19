@@ -1,0 +1,6 @@
+<glassfish-web-app>
+    <security-role-mapping>
+        <role-name>Purchaser</role-name>
+        <group-name>APUSERS</group-name>
+    </security-role-mapping>
+</glassfish-web-app>

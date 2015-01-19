@@ -1,0 +1,42 @@
+    <div class="col-xs4"></div>
+    <h3>Product Modal</h3>
+    <form name="productForm" novalidate>
+        <div class="panel panel-primary">
+            <div class="panel-heading xsmall">
+                Product Information
+            </div>
+            <div class="panel-body xsmall">
+                <button ng-click="isCollapsed = !isCollapsed;">Toggle Panels</button>
+                <div>                    
+                    <div>Product Information</div>
+                    <div ng-show="isCollapsed">
+                        <div class="col-xs-5 col-lg-6 text-right">Vendor:</div>
+                        <div class="col-xs-6 col-lg-6 text-left"><select name="vendorno" size="1" required ng-model="product.vendorno" ng-options="v.vendorno as v.vendorno for v in vendors" ></select></div>                                                
+                        <my-reqfld type="text" label="Code" size="10" max="25" ng-model="product.code" name="productcode"></my-reqfld>
+                        <my-reqfld type="text" label="SKU" size="10" max="25" ng-model="product.sku" name="productsku"></my-reqfld>
+                        <my-reqfld type="text" label="Name" size="10" max="25" ng-model="product.name" name="productname"></my-reqfld>
+                        <my-req-double type="text" flag="flag" label="Cost" size="10" max="25" ng-model="product.cost" name="productcost"></my-req-double>
+                        <my-req-msrp type="text" msrp="msrp" label="MSRP" size="10" max="25" ng-model="product.msrp" name="productmsrp"></my-req-msrp>                        
+                        <div class="col-xs-5 col-lg-6 text-right">QR Code Text:</div>
+                        <div class="col-xs-7 col-lg-6 text-left"><input size=10 required type="text" ng-model="product.QRCodeText" name="productqrtext" /></div>
+                        <div class="col-xs-5 col-lg-6 text-right">QR Code:</div>
+                        <div class="col-xs-6 col-lg-6 text-left">
+                            <img alt="qrcode" ng-src="QRCodeServlet?qrc={{product.code}}" />
+                        </div>
+                    </div>
+                    <div>Inventory Information</div>
+                    <div ng-show="!isCollapsed"> 
+                        <my-req-rop type="text" rop="rop" label="ROP" size="10" max="25" ng-model="product.rop" name="productrop"></my-req-rop>
+                        <my-req-eoq type="text" eoq="eoq" label="EOQ" size="10" max="25" ng-model="product.eoq" name="producteoq"></my-req-eoq>
+                        <my-req-qoh type="text" qoh="qoh" label="QOH" size="10" max="25" ng-model="product.qoh" name="productqoh"></my-req-qoh>                        
+                        <my-req-qoo type="text" qoo="qoo" label="QOO" size="10" max="25" ng-model="product.qod" name="productqod"></my-req-qoo>
+                    </div>
+                </div>
+            </div>  
+            <div class="panel-footer text-primary xsmall">{{status}}</div>
+        </div>        
+        <button ng-click="add()" ng-hide="todo !== 'add'" ng-disabled="vendorForm.$invalid" class="btn-primary">Add</button> 
+        <button ng-click="update()" ng-hide="todo === 'add'" ng-disabled="vendorForm.$invalid" class="btn-primary">Update</button>
+        <button ng-hide="todo === 'add'" confirm-click ng-click="delete()" class="btn-primary">Delete</button>
+        <button ng-click="close()" class="btn-primary">Close</button> 
+    </form>

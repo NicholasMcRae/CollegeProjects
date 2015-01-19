@@ -1,0 +1,18 @@
+<div class="text-center col-lg-6 col-sm-6 col-xs-6" id="main-content" >
+    <table style="width: 100%">
+        <tr class="trPaleBlue" ng-click="selectRow(-1, null)">
+            <td colspan="4">..Click to add, else click on desired vendor</td>            
+        </tr>
+        <tbody ng:repeat="vendor in vendors" ng-class="{trWhite: $even, trGrey: $odd, itemSelected: $index === selectedRow }"
+            ng-click="selectRow($index, vendor)">
+            <tr id="ven{{vendor.vendorno}}">
+                <td align="left" style="padding-right: 15px;">{{vendor.vendorno}}</td>
+                <td align="left">{{vendor.name}}</td>
+                <td align="left">{{vendor.city}}</td>
+                <td align="left">{{vendor.vendortype}}</td>
+            </tr>
+        </tbody>
+        <tr id="venEnd"><td colspan="4"></td></tr>
+    </table>
+    <div class="panel-footer text-primary xsmall">{{status}}</div>
+</div>
