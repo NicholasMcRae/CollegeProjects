@@ -63,3 +63,4 @@ TD Deals
 - App developed for "TD Challenge" (challenge: leverage location data for financial domain)
 - Leverages Google Maps and Place APIs to produce customer-centric deals that are pinned to a map
 - My partner and I turned down the terms of the contest and did not enter, but needed to produce an app
+- Completed in term 6
