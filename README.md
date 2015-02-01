@@ -16,7 +16,8 @@ Threaded RGrep
 - Completed in term 4
 
 Parallel Processing App
-- In sixth term I built an application that leveraged the MPI standard to produce multi-processor functionality for parsing large data sets
+- I built an application that leveraged the MPI standard to produce multi-processor functionality for parsing large data sets
+- Completed in term 6
 
 C# projects
 ===========
@@ -40,6 +41,10 @@ Applet Game
 - Project specs had us create an applet game called Blasteroids that we could implement in a unique way
 - Completed in term 4
 
+J2EE / Angular App
+- Produced an iterative J2EE app that leveraged AngularJS on the front-end
+- Completed in term 6
+
 Javascript project
 ==================
 - Over the course of our web technologies course we produced an ASP web app in iterations which introduced us to Javascript programming in more detail
@@ -48,13 +53,13 @@ Javascript project
 Android project
 ===============
 Time Logger
-- Complete creative project
+- Creative project
 - Went through the Android app store looking for ideas that I thought I could implement before the deadline with limited time
 - Ended up producing an app that can record the total time a user spends on different activities
 - This app is 'project submission' ready, not 'sell' ready. To make it sellable it would need a few more months of work 
 - Completed in term 6
 
 TD Deals
-- app developed for Fanshawe term 6 "TD Challenge"
-- leverages Google Maps and Place APIs to produce customer-centric deals that are pinned to a map
-- we turned down the terms of the contest 
+- App developed for "TD Challenge" (challenge: leverage location data for financial domain)
+- Leverages Google Maps and Place APIs to produce customer-centric deals that are pinned to a map
+- My partner and I turned down the terms of the contest and did not enter, but needed to produce an app
