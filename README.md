@@ -1,7 +1,7 @@
 CollegeProjects
 ===============
 
-Some examples of the work I've done in the later semesters of Fanshawe CPA
+Some examples of the work I did in the second half of Fanshawe CPA
 
 C++ projects
 ============
