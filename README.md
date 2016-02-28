@@ -50,7 +50,7 @@ Javascript project
 - Over the course of our web technologies course we produced an ASP web app in iterations which introduced us to Javascript programming in more detail
 - Completed in term 5
 
-Android project
+Android projects
 ===============
 Time Logger
 - Creative project
@@ -64,3 +64,8 @@ TD Deals
 - Leverages Google Maps and Place APIs to produce customer-centric deals that are pinned to a map
 - My partner and I turned down the terms of the contest and did not enter, but needed to produce an app
 - Completed in term 6
+
+ASP.NET project
+===============
+- one course in 6th term was meant to simulate 'Agile', with sprint planning and management and a deliverable at sprint ends
+- we developed an ASP.NET solution which leveraged an API called 'Fat-Secret' to make a health and nutrition planning app
