@@ -1,62 +1,60 @@
 CollegeProjects
 ===============
 
-Some examples of the work I did in the second half of Fanshawe CPA
+Examples of work completed in the second half of Fanshawe's Computer Programmer Analyst diploma. With the exception of group work (Health Planner), all of these projects were completed in their entirety without assistance from other students (as intended by the CPA program).
 
-C++ projects
-============
+C++
+---
+Threaded RGrep
+- Re-creation of a project we did earlier in the program with the addition of threading
+- Completed in term 4
+
 FTP Client/Server
-- Contains FTP client and server with mget and mput functionality for sending and receiving directories
+- FTP client and server with mget and mput functionality for sending and receiving directories
 - Client and server use socket library that was developed as a part of the application
 - Completed in term 5
 
-Threaded RGrep
-- We were tasked with re-creating a project we did earlier in the program while including threading
-- Turns out doing the project over a year later was quite a bit easier and more efficient
-- Completed in term 4
-
 Parallel Processing App
-- I built an application that leveraged the MPI standard to produce multi-processor functionality for parsing large data sets
+- An application leveraging the MPI standard to produce multi-processor functionality for parsing large data sets
 - Completed in term 6
 
-C# projects
-===========
+C#
+--
 Friend Tracker
-- App created for Windows GUI course. We were allowed a creative project and I thought this concept would be neat
-- The app allows a user to create records of their friends along with details and stories
+- App created for Windows GUI course. The app allows a user to create records of their friends along with details and stories
 - Completed in term 4
 
 Molecular Weight Calculator
-- We were tasked with creating a molecular weight calculator for our distributed programming with .NET course
-- The idea was to create a component with an interface and a thin client that used the component objects
+- Molecular weight calculator built for distributed programming with .NET course
+- Component with an interface and a thin client that used the component objects
 - Completed in term 5
 
-Java projects
-=============
+Java
+----
 Tiered App
 - We were given a Java interface and were asked to flesh out its functionality with a MySQL back-end
 - Completed in term 4
 
 Applet Game
-- Project specs had us create an applet game called Blasteroids that we could implement in a unique way
+- Creation of an applet game called Blasteroids which we could implement in a unique way
 - Completed in term 4
 
 J2EE / Angular App
-- Produced an iterative J2EE app that leveraged AngularJS on the front-end
+- Produced an iterative J2EE app which leveraged AngularJS on the front-end
 - Completed in term 6
 
-Javascript project
-==================
-- Over the course of our web technologies course we produced an ASP web app in iterations which introduced us to Javascript programming in more detail
+Javascript
+----------
+- Production of an ASP web app in iterations which introduced us to Javascript programming in more detail
 - Completed in term 5
 
-Android projects
-===============
+Android
+-------
 Time Logger
-- Creative project
-- Went through the Android app store looking for ideas that I thought I could implement before the deadline with limited time
-- Ended up producing an app that can record the total time a user spends on different activities
-- This app is 'project submission' ready, not 'sell' ready. To make it sellable it would need a few more months of work 
+- Creative project with open-ended specs
+- I looked through the Android app store for ideas that I believed I could implement before the deadline with limited time
+- Produced an app that can record the total time a user spends on different activities
+- Project submission ready, not sell ready. To make it sellable it would need a few more months of work 
 - Completed in term 6
 
 TD Deals
@@ -65,7 +63,8 @@ TD Deals
 - My partner and I turned down the terms of the contest and did not enter, but needed to produce an app
 - Completed in term 6
 
-ASP.NET project
-===============
-- one course in 6th term was meant to simulate 'Agile', with sprint planning and management and a deliverable at sprint ends
-- we developed an ASP.NET solution which leveraged an API called 'Fat-Secret' to make a health and nutrition planning app
+ASP.NET
+-------
+- Course simulating 'Agile', with sprint planning and management and a deliverable at sprint ends
+- We developed an ASP.NET solution which leveraged an API called 'Fat-Secret' to make a health and nutrition planning app
+- Completed in term 6
